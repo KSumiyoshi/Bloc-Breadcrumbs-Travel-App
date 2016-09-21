@@ -1,0 +1,29 @@
+{
+  "name": "bloc-breadcrumbs-travel-app",
+  "version": "1.0.0",
+  "description": "A travel app that helps you plan your next vacation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSumiyoshi/Bloc-Breadcrumbs-Travel-App.git"
+  },
+  "author": "Kristine Sumiyoshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSumiyoshi/Bloc-Breadcrumbs-Travel-App/issues"
+  },
+  "homepage": "https://github.com/KSumiyoshi/Bloc-Breadcrumbs-Travel-App#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "dependencies": "^0.0.1"
+  },
+  "keywords": [
+    "travel"
+  ]
+}
