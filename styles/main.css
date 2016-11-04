@@ -1,0 +1,28 @@
+body {
+  background-image: url(assets/eiffel-tower-night.jpg);
+  background-size: cover;
+  font-family: 'Muli'; 
+  color: #fff;   
+}
+
+
+h1, h3, p{
+  text-align: center;
+}
+
+.rounded-box {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  height: 47px;
+  width: 263px;
+  margin: 15px auto;    
+}
+
+.fa-bars {
+  font-size: 25px;
+}
+
+.fa-calendar {
+  font-size: 25px;
+  text-align: center;	
+}
