@@ -4,34 +4,40 @@
         <meta charset="utf-8">
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>User Review Input</title>
-        <link rel="stylesheet" href="styles/necolas_normalize.css_%20A%20collection%20of%20HTML%20element%20and%20attribute%20style-normalizations.htm">
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="styles/user-review-input.css" type="text/css">
     </head>
     <body>
-        <nav>
-            <i class="fa fa-chevron-left"></i>
-            <!-- Breadcrumbs logo -->
+        <nav class="header">
+            <i class="fa fa-bars"></i>
+            <h1 class="breadcrumbs">Breadcrumbs</h1>
+            <!-- <img src="assets/breadcrumbs-logo.png"> -->
         </nav>
-        <section>
-            <!-- Palau de la Musica blurred image -->
-            <h2>Palau de la</h2>
-            <h2>Musica Catalana</h2>
-            <i class="fa fa-circle"></i>
-            <i class="fa fa-circle-o"></i>
-            <i class="fa fa-circle-o"></i>
+        <section id="landmark-title">
+            <h2 class="palau-text top">Palau de la</h2>
+            <h2 class="palau-text bottom">Musica Catalana</h2>
+            <div id="three-circles">
+                <i class="fa fa-circle dark"></i>
+                <i class="fa fa-circle-o"></i>
+                <i class="fa fa-circle-o"></i>
+            </div>   
         </section>
-        <section>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <i class="fa fa-star-o"></i>
-            <p>Rate this place!</p>
-        </section>
-        <section>
-            <!-- Comment box -->
-            <p>Thoughts?</p>
+        <section class="rating-thoughts">
+            <p id="rating-question">What did you think of<br> Palau de la Musica Catalana?</p>
+            <div class="group-star">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>    
+            <p id="rate">Rate this place!</p>   
+            <div id="comment-box">
+                <p id="thoughts-text">Thoughts?</p>
+            </div>    
         </section>
         <footer>
             <p>Submit!</p>

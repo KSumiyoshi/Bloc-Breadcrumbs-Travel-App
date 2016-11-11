@@ -4,35 +4,39 @@
         <meta charset="utf-8">
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>Completed Landmark List</title>
-        <link rel="stylesheet" href="styles/necolas_normalize.css_%20A%20collection%20of%20HTML%20element%20and%20attribute%20style-normalizations.htm">
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="styles/completed-landmark-list.css" type="text/css">
     </head>
     <body>
-        <nav>
+        <nav class="header">
             <i class="fa fa-bars"></i>
-            <!-- Breadcrumbs logo -->
-            <p>Save</p>
+            <h1 class="breadcrumbs">Breadcrumbs</h1>
+            <!-- <img src="assets/breadcrumbs-logo.png"> -->
+            <p id="save">Save</p>
         </nav>
-        <section>
-            <i class="fa fa-check-circle"></i>
-            <h3>La Sagrada Familia</h3>
-            <i class="fa fa-chevron-right"></i>
+        <section class="landmark" id="guell">
+            <i class="same-line fa fa-plus-circle"></i>
+            <h3 class="same-line location-name">Parc Guell</h3>
+            <i class="same-line fa fa-chevron-right"></i>
         </section>
-        <section>
-            <i class="fa fa-check-circle"></i>
-            <h3>Palau de la Musica Catalana</h3>
-            <i class="fa fa-chevron-right"></i>
+        <section class="landmark" id="palau">
+            <i class="same-line fa fa-plus-circle"></i>
+            <h3 class="same-line location-name">Palau de la Musica Catalana</h3>
+            <i class="same-line fa fa-chevron-right"></i>
         </section>
-        <section>
-            <i class="fa fa-check-circle"></i>
-            <h3>Mercat de Sant Josep de la Boqueria</h3>
-            <i class="fa fa-chevron-right"></i>
+        <section class="landmark" id="boqueria">
+            <i class="same-line fa fa-plus-circle"></i>
+            <h3 class="same-line location-name">Mercat de Sant Josep<br> de la Boqueria</h3>
+            <i class="same-line fa fa-chevron-right"></i>
         </section>
-        <section>
-            <i class="fa fa-check-circle"></i>
-            <h3>Las Ramblas</h3>
-            <i class="fa fa-chevron-right"></i>
+        <section class="landmark" id="sagrada">
+            <i class="same-line fa fa-plus-circle"></i>
+            <h3 class="same-line location-name">La Sagrada Familia</h3>
+            <i class="same-line fa fa-chevron-right"></i>
         </section>
+        <section class="landmark" id="ramblas"></section>
     </body>
 </html>

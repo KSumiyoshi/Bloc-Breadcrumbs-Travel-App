@@ -1,3 +1,5 @@
+/********************* start-planning ************************/     
+
 /******* Background ********/
 
 body {
@@ -27,6 +29,12 @@ p {
 }
 
 /******* Navigation Section ********/
+
+.fa-bars {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 15px;    
+}
 
 .breadcrumbs {
     margin-top: -35px;
@@ -74,12 +82,6 @@ p {
     height: 47px;
     width: 263px;
     margin: 15px auto;    
-}
-
-.fa-bars {
-    font-size: 35px;
-    margin-top: 30px;
-    margin-left: 15px;    
 }
 
 .rounded-box .fa-calendar {

@@ -1,0 +1,98 @@
+/******* Completed-landmark-list ********/
+
+
+body {
+    font-family: 'Muli'; 
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+}
+
+h3 {
+    margin-top: -23px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+h1, h3, p{
+    text-align: center;
+}
+
+/******* Navigation Section ********/
+
+.header {
+    background-color: #4FA5EE;
+    height: 75px;
+}
+
+.fa-bars {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 15px; 
+    color: #fff;
+}
+
+.breadcrumbs {
+    margin-top: -35px;
+    margin-right: 30px;
+    color: #fff;
+}
+
+#save {
+    margin-top: -45px;
+    margin-left: 305px;
+    font-family: Muli;
+    font-size: 17px;
+    color: #fff;
+}
+
+/******* Body Section ********/
+
+.landmark {
+    height: 140px;
+    /* border-top: .3px solid #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.same-line {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.fa-plus-circle {
+    font-size: 16px;
+}
+
+#guell {
+    background-image: url(../assets/parc-guell-image.png)
+}
+
+#palau {
+    background-image: url(../assets/palau-musica-image.png)
+}
+
+#boqueria {
+    background-image: url(../assets/boqueria-image.png)
+}
+
+#sagrada {
+    background-image: url(../assets/la-sagrada-image.png)
+}
+
+#ramblas {
+    background-image: url(../assets/las-ramblas-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
