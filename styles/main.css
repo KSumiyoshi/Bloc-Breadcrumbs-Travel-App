@@ -1,38 +1,96 @@
+/******* Background ********/
+
 body {
-  background-image: url(../assets/eiffel-tower.png);
-  background-size: cover;
-  font-family: 'Muli'; 
-  color: #fff;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+    background-image: url(../assets/eiffel-tower.png);
+    background-size: cover;
+    font-family: 'Muli'; 
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
+/******* Fonts ********/
+
+h1, h3 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+}
 
 h1, h3, p{
-  text-align: center;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/******* Navigation Section ********/
+
+.breadcrumbs {
+    margin-top: -35px;
+    margin-right: 30px;
+}
+
+/******* Body Formatting ********/
+
+.text-body {
+    margin-top: 125px;
+}
+
+/******* Welcome Section ********/
+
+#welcome {
+    margin-right: 100px;
+}
+
+#start-planning {
+    margin-top: -20px;
+    margin-left: -25px;
+}
+
+#user-image {
+    height: 65px;
+    width: 65px;
+    float: right;
+    margin-top: -75px;
+    margin-right: 55px;
+}
+
+#text-body #group-welcome {
+    margin-top: 100px;
+}
+
+/******* Boxes Section ********/
+
+.group-rounded-box {
+    margin-top: 30px;
 }
 
 .rounded-box {
-  border-radius: 20px;
-  border: 1px solid #fff;
-  height: 47px;
-  width: 263px;
-  margin: 15px auto;    
+    border-radius: 20px;
+    border: 1px solid #fff;
+    height: 47px;
+    width: 263px;
+    margin: 15px auto;    
 }
 
 .fa-bars {
-  font-size: 35px;
-  margin-top: 30px;
-  margin-left: 15px;    
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 15px;    
 }
 
 .rounded-box .fa-calendar {
-  font-size: 25px;
-  position: relative;
-  left: 220px;
-  top: -40px;
+    font-size: 25px;
+    position: relative;
+    left: 220px;
+    top: -35px;
 }
+
+
+/******* Footer ********/
 
 main {
     flex: 1;
@@ -40,5 +98,13 @@ main {
 
 footer{
     height: 75px;
-    background-color: blue;
+    background-color: #4FA5EE;
 }
+
+footer p{
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+
+
