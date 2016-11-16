@@ -63,6 +63,8 @@ h1, h3, p{
     height: 213px;
     background-image: url(../assets/palau-musica-image.png);
     background-size: cover;
+    background-position-x: center;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .palau-text {
@@ -86,9 +88,6 @@ h1, h3, p{
     margin: 0 4px;
 }
 
-.dark {
-    color: #7D757F;
-}
 
 /******* Ratings ********/
 
@@ -104,6 +103,10 @@ h1, h3, p{
     margin-top: -10px;
     font-size: 28px;
     color: #4A4A4A;
+}
+
+.fa-star-o:hover {
+    fill: #F5A623;
 }
 
 #rate {

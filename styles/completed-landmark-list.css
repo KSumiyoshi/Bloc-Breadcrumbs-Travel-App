@@ -59,10 +59,26 @@ h1, h3, p{
 
 .landmark {
     height: 140px;
-    /* border-top: .3px solid #fff; */
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.landmark > div {
+    display: table;
+}
+
+.landmark > div * {
+    display: table-cell;
+}
+
+.landmark > div *:not(h3) {
+    vertical-align: middle;
+}
+
+.location-name {
+    width: 300px;
 }
 
 .same-line {
