@@ -8,40 +8,51 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="../styles/create-account-setup.css" type="text/css">
+        <link rel="stylesheet" href="../styles/account-setup.css" type="text/css">
     </head>
     <body>
         <nav class="header">
-            <h1 class="breadcrumbs">Breadcrumbs</h1>
+            <h1>Breadcrumbs</h1>
             <!-- <img src="assets/breadcrumbs-logo.png"> -->
         </nav>
-        <section>
+        <section id="create-account-text">
             <p>Create your account using...</p>
-            <!-- Three circles with Facebook logo, Twitter logo, Pinterest logo within them-->
+                <div class="circle"></div>
+                    <i class="fa fa-facebook-f"></i>
+                <div class="circle second"></div>
+                    <i class="fa  fa-twitter"></i>
+                <div class="circle third"></div>
+                    <i class="fa fa-pinterest-p"></i>
         </section>
         <section>
-            <!-- Line divider -->
-            <p>OR</p>
-            <!-- Line divider -->            
+            <hr class="line one">
+            <p id="or-line" class="line">OR</p>
+            <hr class="line two">            
         </section>
         <section>
-            <p>First Name</p>
-            <p>Last Name</p>
+            <p class="names first">First Name</p>
+            <p class="names last">Last Name</p>
+            <hr class="line three">
+            <hr class="line four"> 
         </section>
         <section>
-            <p>E-mail</p>
+            <p class="info">E-mail</p>
+            <hr class="info-line">
         </section>
         <section>
-            <p>Username</p>
+            <p class="info">Username</p>
+            <hr class="info-line">
         </section>
         <section>
-            <p>Password</p>
+            <p class="info">Password</p>
+            <hr class="info-line">
         </section>
         <section>
-            <p>Re-enter Password</p>
+            <p class="info">Re-enter Password</p>
+            <hr class="info-line">
         </section>
         <footer>
-            <!-- Add downward facing chevron-->
+            <i class="fa fa-chevron-down"></i>
         </footer>
     </body>
 </html>

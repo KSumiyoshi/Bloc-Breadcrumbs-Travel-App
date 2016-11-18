@@ -1,0 +1,139 @@
+/******* Account Setup ********/
+
+
+body {
+    background-color: #0C74CD;
+    font-family: 'Muli'; 
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    color: #fff;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/******* Navigation Section ********/
+
+.header {
+    height: 75px;
+    text-align: center;
+}
+
+/******* Body Section ********/
+
+#create-account-text {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.circle {
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    margin-left: 25px;
+    margin-top: 14px;
+    float: left;
+    z-index: -1;
+}
+
+.second, .third{
+    margin-left: 38px;
+}
+
+.fa {
+    color: #fff;
+    font-size: 36px;
+}
+
+.fa-facebook-f {
+    margin-left: -255px;
+    margin-top: 30px;
+}
+
+.fa-twitter {
+    margin-left: 75px;
+}
+
+.fa-pinterest-p {
+    margin-left: 70px;
+}
+
+.line {
+    width: 148px;
+    size: 1px;
+    color: #fff;
+    float: left;
+}
+
+.one {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.two {
+    margin-left: 208px;
+    margin-top: -24px;
+}
+
+#or-line {
+    padding: 0 14px;
+}
+
+.three {
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+.four {
+    margin-left: -10px;
+}
+
+.names {
+    float: left;
+    margin-bottom: -2px;
+}
+
+.first {
+    padding: 0 15px;
+}
+
+.last {
+    margin-left: 103px;
+}
+
+.info {
+    margin-left: 18px;
+    margin-top: 20px;
+    margin-bottom: -2px;
+}
+
+.info-line {
+    width: 338px;
+    size: 1px;
+    margin-bottom: 15px;
+}
+
+
+
+/******* Footer Section ********/
+
+footer {
+    height: 65px;
+    background-color: #4FA5EE;
+    margin-top: 75px;
+}
+
+.fa-chevron-down {
+    margin-top: 12px;
+    margin-left: 170px;
+}
