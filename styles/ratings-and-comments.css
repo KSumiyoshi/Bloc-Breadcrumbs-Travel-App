@@ -1,0 +1,140 @@
+/******* User Review Input ********/
+
+
+body {
+    font-family: 'Muli-Light'; 
+    color: #000;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 300;
+    color: #4A4A4A;  
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+/******* Navigation Section ********/
+
+.header {
+    background-color: #0C74CD;
+    height: 75px;
+}
+
+.fa-chevron-left {
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: 32px;
+    left: 20px;
+}
+
+.breadcrumbs {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 25px;
+}
+
+/******* Landmark Title ********/
+
+#landmark-title{
+    width: 100%;
+    height: 213px;
+    background-image: url(../assets/palau-musica-image.png);
+    background-size: cover;
+    background-position-x: center;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.palau-text {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.top {
+    margin-bottom: -70px;
+}
+
+#three-circles {
+    color: #fff;
+    position: relative;
+    left: 150px;
+    top: 15px;
+}
+
+.fa-circle {
+    padding: 0 4px; 
+} 
+
+.dark {
+    color: #9b9b9b;
+}
+
+/******* Body ********/
+
+
+.fa-star {
+    color: #F5A623;
+    font-size: 28px;
+}
+
+.group-star {
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+
+#reviews {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+
+.line-divider {
+    width: 300px;
+    color: #4A4A4A;
+    margin-top: 20px;
+}
+
+.review-box {
+    position: relative;
+    bottom: 10px;
+}
+
+.review-section {
+    float: right;
+    font-size: 18px;
+    position: relative;
+    right: 29px;
+    bottom: 55px;
+}
+
+.individual-review {
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.review-text {
+    margin-left: 35px;
+    width: 300px;
+}
+
+.two {
+    margin-top: 1px;
+}
