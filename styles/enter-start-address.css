@@ -3,7 +3,7 @@
 /******* Background ********/
 
 body {
-    background-image: url(../assets/eiffel-tower.png);
+    background-image: url(../assets/parc-guell-blur-lg.png);
     background-size: cover;
     font-family: 'Muli'; 
     color: #fff;
@@ -14,12 +14,12 @@ body {
 
 /******* Fonts ********/
 
-h1, h3 {
+h1, h2 {
     font-family: 'Dancing Script';
     font-weight: 400;
 }
 
-h1, h3, p{
+h1, p{
     text-align: center;
 }
 
@@ -47,33 +47,14 @@ p {
     margin-top: 125px;
 }
 
-/******* Welcome Section ********/
 
-#welcome {
-    margin-right: 100px;
-}
+/******* Body ********/
 
-#start-planning {
-    margin-top: -20px;
-    margin-left: -25px;
-}
+.barcelona-again {
+    text-align: center;
+    margin-top: 125px;
+    font-size: 23px;
 
-#user-image {
-    height: 65px;
-    width: 65px;
-    float: right;
-    margin-top: -75px;
-    margin-right: 55px;
-}
-
-#text-body #group-welcome {
-    margin-top: 100px;
-}
-
-/******* Boxes Section ********/
-
-.group-rounded-box {
-    margin-top: 30px;
 }
 
 .rounded-box {
@@ -81,14 +62,28 @@ p {
     border: 1px solid #fff;
     height: 47px;
     width: 263px;
-    margin: 15px auto;    
+    margin: 15px auto;
+    position: relative;
+    top: -25px;
+    z-index: 0;
 }
 
-.rounded-box .fa-calendar {
-    font-size: 25px;
+#vert-line {
+    width: 1;
+    size: 24px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 23px;
+}
+
+#start-address-text {
+    font-size: 16px;
+    color: rgba(255,255,255,.57);
+    float: right;
     position: relative;
-    left: 220px;
-    top: -35px;
+    right: 35px;
+    top: -1px;
 }
 
 
@@ -101,12 +96,12 @@ main {
 footer{
     height: 75px;
     background-color: #4FA5EE;
+    position: relative;
+    top: 204px;
 }
 
 footer p{
     margin-top: 27px;
     font-size: 20px;
 }
-
-
 
