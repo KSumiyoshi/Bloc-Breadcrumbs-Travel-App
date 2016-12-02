@@ -1,0 +1,100 @@
+/********************* Weather View ************************/     
+
+/******* Background ********/
+
+body {
+    background-image: url(../assets/parc-guell-blur-lg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Muli'; 
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/******* Navigation Section ********/
+
+
+.breadcrumbs {
+    margin-top: -35px;
+    position: relative;
+    left: 90px;
+}
+
+/******* Body ********/
+
+h1 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+}
+
+#weather-nav {
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+#weather-body {
+    position: relative;
+    top: 40px; 
+}
+
+#city-name {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 2px 2px #000;
+    position: relative;
+    bottom: 35px;
+}
+
+#temperature-text {
+    font-size: 61px;
+    text-shadow: 0 2px 2px #000;
+    font-family: 'Muli';
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+#weather-image {
+    position: relative;
+    bottom: 82px;
+    left: 135px;
+}
+
+#weather-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    bottom: 90px;
+    text-shadow: 0 2px 4px #000; 
+}
+
+.weather-forecast-bar {
+    width: 375px;
+    height: 89px;
+    background-color: rgba(255,255,255,.37);
+    box-shadow: 0 2px 4px rgba(0,0,0,.50);
+    position: relative;
+    bottom: 58px;
+}
+
+.weather-image-bar {
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    left: 20px;
+    top: 14px;
+}
+
+.weather-text-bar {
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    font-size: 14px;
+}
