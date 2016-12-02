@@ -1,0 +1,107 @@
+/********************* Take Photo ************************/     
+
+/******* Background ********/
+
+body {
+    background-color: #002E55;
+    background-size: cover;
+    font-family: 'Muli'; 
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/******* Fonts ********/
+
+h1, h2 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/******* Navigation Section ********/
+
+.left-arrow {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 15px;    
+}
+
+.breadcrumbs {
+    margin-top: -35px;
+    text-align: center;
+}
+
+#current-location {
+    position: relative;
+    bottom: 15px;
+}
+
+#current-location-text {
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.photo {
+    position: relative;
+    bottom: 35px;
+}
+
+.photo-view {
+    border: 1px solid #000;
+    width: 334px;
+    height: 371px;
+    background-color: #000;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px #000;
+}
+
+#video-photo-pano-bar {
+    width: 375px;
+    height: 30px;
+    background-color: rgba(255,255,255,.37);
+    box-shadow: 0 2px 4px rgba(0,0,0,.50);
+    position: relative;
+    top: 33px;
+}
+
+.text {
+    display: inline-block;
+    margin: 38px;
+    position: relative;
+    z-index: 1;
+    bottom: 30px;
+    font-size: 16px;
+}
+
+.circle {
+    width: 67px;
+    height: 67px;
+    border-radius: 50px;
+    background: #eee;
+    position: relative;
+    margin: 0 auto;
+    top: 45px;
+}
+
+.circle-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    border: 3px solid #002E55;
+    position: relative;
+    margin: 0 auto;
+    bottom: 16px;
+}
+
+.reverse-camera {
+    position: relative;
+    left: 320px;
+    bottom: 42px;
+}
