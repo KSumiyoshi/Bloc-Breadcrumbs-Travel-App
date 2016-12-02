@@ -1,0 +1,77 @@
+/******* Saved Trips Bucketlist ********/
+
+
+body {
+    background-color: #4FA5EE;
+    font-family: 'Muli'; 
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+p {
+    font-weight: 300;
+}
+
+
+/******* Navigation Section ********/
+
+.header {
+    background-color: #4FA5EE;
+    height: 75px;
+}
+
+#header-arrow {
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+#saved-trips-text {
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    bottom: 27px;
+}
+
+#bucketlist p {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-size: 30px;
+    position: relative;
+    top: 12px;
+}
+
+.trip-box {
+    height: 120px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.right-arrow {
+    float: right;
+    position: relative;
+    right: 15px;
+    bottom: 48px;
+}
+
+#barcelona {
+    background-image: url(../assets/barcelona-bucketlist.png); 
+}
+
+#paris {
+    background-image: url(../assets/paris-bucketlist.png); 
+}
+
+#bali {
+    background-image: url(../assets/bali-bucketlist.png); 
+}
+
+#rome {
+    background-image: url(../assets/rome-bucketlist.png); 
+}
+
+#florence {
+    background-image: url(../assets/florence-bucketlist.png); 
+}
