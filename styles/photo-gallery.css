@@ -1,0 +1,117 @@
+/********************* Photo Gallery ************************/     
+
+/******* Background ********/
+
+body {
+    background-color: #002E55;
+    background-size: cover;
+    font-family: 'Muli'; 
+    color: #fff;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/******* Fonts ********/
+
+h1 {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/******* Navigation Section ********/
+
+#navigation {
+    position: relative;
+    top: 35px;
+}
+
+#menu {
+    position: relative;
+    left: 15px;
+}
+
+.fa-chevron-left {
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+    top: 13px;
+    left: 20px;
+}
+
+.breadcrumbs {
+    margin-top: -21px;
+    position: relative;
+    right: 15px;
+    font-size: 32px;
+}
+
+#navigation p {
+    font-size: 18px;
+    position: relative;
+    float: right;
+    bottom: 63px;
+    right: 15px;
+}
+
+.airplane-logo{
+    width: 40px;
+    position: relative;
+    left: 257px;
+    bottom: 46px;
+}
+
+/******* Body ********/
+
+.picture-location p {
+    font-size: 16px;
+}
+
+.picture-location {
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+}
+
+.date-location {
+    float: right;
+    position: relative;
+    left: 301px;
+    bottom: 53px;
+}
+
+.box {
+    height: 80px;
+    background-color: #D8D8D8;
+    position: relative;
+    display: inline-block;
+    margin: .5%;
+    width: 21.5%;
+}
+
+.photo-gallery {
+    position: relative;
+    bottom: 51px;
+    left: 13px;
+}
+
+.bottom {
+    position: relative;
+    bottom: 36px;  
+}
+
+#bottom {
+    position: relative;
+    bottom: 83px;
+}
+
+.second {
+    position: relative;
+    bottom: 81px;
+}
