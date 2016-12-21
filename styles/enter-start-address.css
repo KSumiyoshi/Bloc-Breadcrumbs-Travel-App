@@ -39,6 +39,16 @@ p {
 .breadcrumbs {
     margin-top: -35px;
     text-align: center;
+    position: relative;
+    right: 7px;
+}
+
+.logo {
+    height: 19px;
+    transform: rotate(-6deg);
+    position: relative;
+    bottom: 45px;
+    left: 263px;
 }
 
 /******* Body Formatting ********/

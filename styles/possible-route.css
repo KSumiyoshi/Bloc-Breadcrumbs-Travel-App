@@ -23,26 +23,29 @@ p {
 
 /******* Navigation Section ********/
 
-
-.fa-bars {
-    font-size: 35px;
-    margin-top: 30px;
-    margin-left: 15px; 
+.fa-chevron-left {
+    font-size: 25px;
     color: #fff;
+    position: relative;
+    top: 28px;
+    left: 20px;
 }
 
 .breadcrumbs {
     margin-top: -35px;
     text-align: center;
     color: #fff;
+    position: relative;
+    top: 32px;
+    right: 15px;
 }
 
-#back {
-    margin-top: -45px;
-    margin-left: 320px;
-    font-family: Muli;
-    font-size: 17px;
-    color: #fff;
+.logo {
+    height: 19px;
+    transform: rotate(-6deg);
+    position: relative;
+    left: 255px;
+    bottom: 13px;
 }
 
 /******* Body ********/

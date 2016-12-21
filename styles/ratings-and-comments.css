@@ -38,7 +38,7 @@ p {
     font-size: 25px;
     color: #fff;
     position: relative;
-    top: 32px;
+    top: 28px;
     left: 20px;
 }
 
@@ -47,6 +47,15 @@ p {
     color: #fff;
     position: relative;
     bottom: 25px;
+    right: 17px;
+}
+
+.logo {
+    height: 19px;
+    transform: rotate(-6deg);
+    position: relative;
+    bottom: 71px;
+    left: 254px;
 }
 
 /******* Landmark Title ********/

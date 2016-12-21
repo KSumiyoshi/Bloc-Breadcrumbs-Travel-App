@@ -38,15 +38,23 @@ p {
     font-size: 25px;
     color: #fff;
     position: relative;
-    top: 32px;
+    top: 28px;
     left: 20px;
 }
 
 .breadcrumbs {
     text-align: center;
     color: #fff;
-    position: relative;
+        position: relative;
     bottom: 25px;
+}
+
+.logo {
+    height: 19px;
+    transform: rotate(-6deg);
+    position: relative;
+    bottom: 72px;
+    left: 272px;
 }
 
 /******* Landmark Title ********/

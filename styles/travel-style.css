@@ -12,12 +12,31 @@ body {
     flex-direction: column;
 }
 
-/******* Body ********/
+
+/******* Navigation *******/
 
 .header {
     font-family: 'Dancing Script';
     font-weight: 400;
     text-align: center;
+    position: relative;
+    right: 15px;
+}
+
+.logo {
+    height: 19px;
+    transform: rotate(-6deg);
+    position: relative;
+    left: 266px;
+    bottom: 50px;
+}
+
+
+/******* Body ********/
+
+.style-section{
+    position: relative;
+    bottom: 33px;
 }
 
 #travel-style-text {

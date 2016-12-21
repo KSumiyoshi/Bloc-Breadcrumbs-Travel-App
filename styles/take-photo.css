@@ -27,20 +27,35 @@ p {
 
 /******* Navigation Section ********/
 
-.left-arrow {
-    font-size: 35px;
-    margin-top: 30px;
-    margin-left: 15px;    
+.fa-chevron-left {
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    top: 28px;
+    left: 20px;    
 }
 
 .breadcrumbs {
     margin-top: -35px;
     text-align: center;
+    position: relative;
+    top: 32px;
+    right: 18px;
 }
+
+.logo {
+    height: 19px;
+    transform: rotate(-6deg);
+    position: relative;
+    bottom: 14px;
+    left: 253px;
+}
+
+/******* Body ********/
 
 #current-location {
     position: relative;
-    bottom: 15px;
+    bottom: 4px;
 }
 
 #current-location-text {

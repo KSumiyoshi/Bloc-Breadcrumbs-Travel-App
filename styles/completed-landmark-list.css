@@ -36,23 +36,27 @@ h1, h3, p{
 
 .fa-bars {
     font-size: 35px;
-    margin-top: 30px;
-    margin-left: 15px; 
+    position: relative;
+    top: 23px;
+    left: 15px;
     color: #fff;
 }
 
 .breadcrumbs {
-    margin-top: -35px;
     text-align: center;
     color: #fff;
+    position: relative;
+    bottom: 33px;
+    left: -4px;
 }
 
-#save {
-    margin-top: -45px;
-    margin-left: 305px;
-    font-family: Muli;
-    font-size: 17px;
-    color: #fff;
+
+.logo {
+    position: relative;
+    height: 19px;
+    transform: rotate(-6deg);
+    bottom: 81px;
+    left: 267px;  
 }
 
 /******* Body Section ********/
